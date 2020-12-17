@@ -138,6 +138,6 @@ print(f'La funzione union() restituisce l\'UNIONE dei due insiemi: {a.union(b)} 
 print(f'La funzione difference() restituisce la DIFFERENZA dei due insiemi: {a.difference(b)} \n')
 print(f'La funzione intersection() restituisce l\'INTERSEZIONE dei due insiemi: {a.intersection(b)} \n')
 print(f'La funzione isdisjoint() restituisce True se i due set sono DISTINTI: {a.isdisjoint(b)} \n')
-print(f'La funzione issubset() restituisce True se un set CONTIENE l\'altro: {a.isdisjoint(b)} \n')
-print(f'La funzione issuperset() restituisce True se un set è CONTENUTO dall\'altro: {a.isdisjoint(b)} \n')
+print(f'La funzione issubset() restituisce True se un set CONTIENE l\'altro: {a.issubset(b)} \n')
+print(f'La funzione issuperset() restituisce True se un set è CONTENUTO dall\'altro: {a.issuperset(b)} \n')
 
